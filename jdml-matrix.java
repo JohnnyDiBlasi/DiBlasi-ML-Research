@@ -5,7 +5,7 @@ class Matrix {
   
   Matrix(int theRows, int theCols) {
   	rows = theRows;
-		cols = theCols;
-		data = new float[rows][cols];
+	  cols = theCols;
+    data = new float[rows][cols];
   }
 }
