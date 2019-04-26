@@ -4,8 +4,8 @@ class Matrix {
   float[][] data;
   
   Matrix(int theRows, int theCols) {
-  	rows = theRows;
-	  cols = theCols;
-    data = new float[rows][cols];
+  rows = theRows;
+  cols = theCols;
+  data = new float[rows][cols];
   }
 }
